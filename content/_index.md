@@ -18,7 +18,7 @@ feature:
     - name: "App-centric Experiences"
       icon: "fas fa-window-maximize"
       content: "Developers can focus on their applications instead of underlying platform infrastructure"
-      
+
     # feature item loop
     - name: "Abstracted Runtimes"
       icon: "fas fa-layer-group"
@@ -28,17 +28,17 @@ feature:
     - name: "Separation of Concerns"
       icon: "fas fa-people-arrows"
       content: "Developers focus on their apps while operators focus on environments and infrastructure"
-      
+
     # feature item loop
     - name: "App Portability"
       icon: "fas fa-share-from-square"
       content: "Deploy your application across clouds and on-premises with zero app rewrites"
-      
+
     # feature item loop
     - name: "Consistent Tooling"
       icon: "fas fa-screwdriver-wrench"
       content: "Developers and operators can deploy, manage, and visualize applications with common tools"
-      
+
     # feature item loop
     - name: "Automated & Secure"
       icon: "fas fa-file-shield"
@@ -48,6 +48,17 @@ feature:
 service:
   enable: true
   service_item:
+
+    # Radius Canvas Extension in GitHub Copilot app
+    - title: "Model and deploy your app without leaving Copilot"
+      images:
+      - "images/gh-copilot-app.png"
+      content: "Now in preview, the Radius Canvas extension brings your application graph into the GitHub Copilot app. Describe what you're building in chat, and Radius turns your repository into a deployable application model. It renders the graph, diffs it visually between branches to highlight changes, and deploys it to your environments through GitHub Actions, all side by side with your code."
+      button:
+        enable: true
+        label: "Learn More"
+        link: "https://edge.docs.radapp.io/integrations/github-copilot-app/canvas-extension/"
+
     # Developer + Operator Collaboration
     - title: "Developer + Operator Collaboration"
       images:
@@ -67,7 +78,7 @@ service:
         enable: false
         label: "Learn More"
         link: "https://docs.radapp.io/concepts/applications/"
-      
+
     #  Environments and Recipes
     - title: "Infrastructure Recipes"
       images:
@@ -99,7 +110,7 @@ service:
       images:
       - "images/tooling.png"
       content: "Radius meets application teams where they are by supporting proven technologies like Kubernetes, existing infrastructure tools including Terraform and Bicep, and by integrating with existing CI/CD systems like GitHub Actions and Azure DevOps Pipelines."
-        
+
 ################### Screenshot ########################
 screenshot:
   enable: true

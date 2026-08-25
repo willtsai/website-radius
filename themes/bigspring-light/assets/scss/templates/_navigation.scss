@@ -1,3 +1,49 @@
+.announcement {
+  background-color: $primary-color;
+  color: $white;
+  font-size: 15px;
+  font-weight: 500;
+
+  .announcement-inner {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    min-height: 44px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    text-align: center;
+
+    @include mobile {
+      align-items: baseline;
+      flex-direction: column;
+      gap: 2px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      text-align: left;
+    }
+  }
+
+  a {
+    color: $white;
+    flex-shrink: 0;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+    &:hover,
+    &:focus {
+      color: $white;
+      text-decoration-thickness: 2px;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $white;
+      outline-offset: 3px;
+    }
+  }
+}
+
 .nav-item {
   margin: 0;
 
