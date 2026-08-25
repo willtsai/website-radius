@@ -25,6 +25,11 @@ name = "YouTube"
 url = "https://www.youtube.com/@radapp_io"
 weight = 5
 
+[[main]]
+name = "Roadmap"
+url = "https://aka.ms/radius-roadmap"
+weight = 6
+
 # footer menu left
 [[footer_left]]
 name = "Concepts"
@@ -37,6 +42,10 @@ url = "https://docs.radapp.io/getting-started/"
 [[footer_left]]
 name = "How-To guides"
 url = "https://docs.radapp.io/guides/"
+
+[[footer_left]]
+name = "Roadmap"
+url = "https://aka.ms/radius-roadmap"
 
 # footer menu middle
 [[footer_middle]]

@@ -1,15 +1,5 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
-  {{ if site.Params.announcement.enable }}
-  {{ with site.Params.announcement }}
-  <aside class="announcement" aria-label="Announcement">
-    <div class="container announcement-inner">
-      <span>{{ .content }}</span>
-      <a href="{{ .link | safeURL }}">{{ .label }} <span aria-hidden="true">&rarr;</span></a>
-    </div>
-  </aside>
-  {{ end }}
-  {{ end }}
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -74,5 +64,15 @@
       </div>
     </nav>
   </div>
+  {{ if site.Params.announcement.enable }}
+  {{ with site.Params.announcement }}
+  <aside class="announcement" aria-label="Announcement">
+    <div class="container announcement-inner">
+      <span>{{ .content }}</span>
+      <a href="{{ .link | safeURL }}">{{ .label }} <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </aside>
+  {{ end }}
+  {{ end }}
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
