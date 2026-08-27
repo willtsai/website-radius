@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get Started"
-    link: "https://docs.radapp.io/getting-started"
+    link: "https://edge.docs.radapp.io/getting-started"
 
 ##################### Feature ##########################
 feature:
@@ -65,9 +65,9 @@ service:
       - "images/collaboration.png"
       content: "Developers define Applications and their dependencies, not the underlying infrastructure. Operators define Environments with platform configuration, infrastructure, and policies that enforce their organization's requirements. Radius brings them together, deploying applications and infrastructure that meet both developer and operator requirements."
       button:
-        enable: false
+        enable: true
         label: "Learn More"
-        link: "https://docs.radapp.io/concepts/applications/"
+        link: "https://edge.docs.radapp.io/concepts/"
 
     # Application Graph
     - title: "Application Graph"
@@ -75,9 +75,9 @@ service:
       - "images/connections.png"
       content: "Graphs are better than lists. Instead of managing endless lists of infrastructure and resources, Radius Applications capture the relationships and dependencies within an app. This graph can be used to both deploy and understand the application."
       button:
-        enable: false
+        enable: true
         label: "Learn More"
-        link: "https://docs.radapp.io/concepts/applications/"
+        link: "https://edge.docs.radapp.io/concepts/applications/"
 
     #  Environments and Recipes
     - title: "Infrastructure Recipes"
@@ -87,7 +87,7 @@ service:
       button:
         enable: true
         label: "Learn More"
-        link: "https://docs.radapp.io/guides/recipes/"
+        link: "https://edge.docs.radapp.io/concepts/recipe-packs/"
 
     # Cloud neutral
     - title: "Cloud Neutral"
@@ -103,7 +103,7 @@ service:
       button:
         enable: true
         label: "Learn More"
-        link: "https://docs.radapp.io/guides/author-apps/dapr/overview/"
+        link: "https://edge.docs.radapp.io/integrations/dapr/"
 
     # Meet Customers where they are
     - title: "Leverage Existing Tools"
@@ -126,7 +126,7 @@ call_to_action:
   button:
     enable: true
     label: "Get Started"
-    link: "https://docs.radapp.io/getting-started/"
+    link: "https://edge.docs.radapp.io/getting-started/"
 
 ##################### CNCF ###########################
 cncf:
