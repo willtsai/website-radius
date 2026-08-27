@@ -94,6 +94,10 @@ service:
       images:
       - "images/platforms.png"
       content: "Teams want tools and solutions that don't lock them into a specific cloud or platform. Radius is open-source and multi-cloud from the start. With Radius, you can deploy across development environments, on-premises infrastructure, and your public clouds of choice, with a single, consistent tooling experience."
+      button:
+        enable: true
+        label: "Learn More"
+        link: "https://edge.docs.radapp.io/installation/cloud-providers/"
 
     # Dapr
     - title: "Dapr + Radius: Better Together"
@@ -110,6 +114,10 @@ service:
       images:
       - "images/tooling.png"
       content: "Radius meets application teams where they are by supporting proven technologies like Kubernetes, existing infrastructure tools including Terraform and Bicep, and by integrating with existing CI/CD systems like GitHub Actions and Azure DevOps Pipelines."
+      button:
+        enable: true
+        label: "Learn More"
+        link: "https://edge.docs.radapp.io/integrations/"
 
 ################### Screenshot ########################
 screenshot:
