@@ -64,8 +64,8 @@
       </div>
     </nav>
   </div>
-  {{ if site.Params.announcement.enable }}
   {{ with site.Params.announcement }}
+  {{ if .enable }}
   <aside class="announcement" aria-label="Announcement">
     <div class="container announcement-inner">
       <span>{{ .content }}</span>
